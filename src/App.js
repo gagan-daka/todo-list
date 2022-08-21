@@ -25,7 +25,6 @@ function App(props) {
       </TodoList>
 
       <CreateTodoButton />
-      <button>+</button>
     </React.Fragment>
   );
 }
