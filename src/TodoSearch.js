@@ -1,10 +1,9 @@
 import React from "react";
 import './TodoSearch.css';
 
-function TodoSearch() {
+function TodoSearch({ searchValue, setSearchValue }) {
 
-    //       variable       funcion
-    const [searchValue, setSearchValue] = React.useState('');
+    const [] = React.useState('');
 
     const onSearchValueChange = (event) => {
         console.log(event.target.value);
@@ -17,8 +16,7 @@ function TodoSearch() {
         placeholder="Compra ropa"
         value={searchValue}
         onChange={onSearchValueChange}
-        />,
-        <p>{searchValue}</p>
+        />
     ];
 }
 
