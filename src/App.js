@@ -31,7 +31,6 @@ function App(props) {
       const todoText = todo.text.toLowerCase();
       const searchText = searchValue.toLowerCase();
       return todoText.includes(searchText);
-      
     });
 
   }
